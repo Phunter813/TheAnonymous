@@ -3,7 +3,7 @@
 +  reason of doing it? cause it is the most anticipating topic amoung us.
 +  talking about the work, I did the request by `Robobrowser` wiz. another of those module of Python composed of `Mechanize`,  `requests`, `webtests`, `BeautifulSoup`, `requests` etc.. The issue is to get the attendace tab, which is protected by the some erp's .Net security. my Objective is to introduce it to this subject and help you interact with this field, and find solution to the erp problem if you already got you hands dabbed in it. 
 +  click on `url` after you run the code on the console which is provided after the unexpected response from the `Attendace` tab. 
-+  for further explanation contact the number on the notice, here is the code.
++  for further explanation contact the E-mail on the notice, here is the code.
 
 ```Python 3
 from robobrowser import RoboBrowser
@@ -33,7 +33,6 @@ sign_up.fields['tbUserName'].value = 'YOUR_ID'
 sign_up.fields['tbPassword'].value = 'YOUR_PASSWORD'
 opens = browser.submit_form(sign_up, submit='Login')
 news = browser.parsed  # check that the login was successful
-# print(browser.get_link('Attendance'))
 
 stuff = {
     'ctl00$ContentPlaceHolder1$rptAttendance$ctl01$hfSubjectId" id="ctl00_ContentPlaceHolder1_rptAttendance_ctl01_hfSubjectId': '1001711341',
@@ -72,8 +71,6 @@ new_link = browser.follow_link(browser.get_link('Attendance'), data=stuff)
 browser.session.get('http://erp.ncuindia.edu/Student/StudentAttendanceView.aspx?SID=JQg5rX6jt7HRk993gwIZQw==|b3cyZF04Rp4=')
 browser.session.get('http://erp.ncuindia.edu/fancybox/jquery.fancybox-1.3.4.css')
 
-# new_link[3]
-# opening = 'http://erp.ncuindia.edu/' + str(new_link)
 print(browser.parsed)
 print('........................\nabove is the response from website')
 print('........................\nhere is the url of webpage')
