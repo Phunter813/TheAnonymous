@@ -1,4 +1,4 @@
-# TheAnonymousOne
+# Get Your Attendance 
 +  get your Update Attendance with one click 
 +  reason of doing it? cause it is the most anticipating topic amoung us.
 +  talking about the work, I did the request by `Robobrowser` wiz. another of those module of Python composed of `Mechanize`,  `requests`, `webtests`, `BeautifulSoup`, `requests` etc.. The issue is to get the attendace tab, which is protected by the some erp's .Net security. my Objective is to introduce it to this subject and help you interact with this field, and find solution to the erp problem if you already got you hands dabbed in it. 
